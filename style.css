@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.inner-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.inner-wrapper section {
+    margin: auto 0;
+    width: 100vw;
+    height: 90vh;
+}
+
+.one {
+    background-color: #f14b4b;
+}
+
+.two {
+    background-color: #f14bb1;
+}
+
+.three {
+    background-color: #8b4bf1;
+}
+
+.four {
+    background-color: #4b64f1;
+}
+
+.five {
+    background-color: #4bc2f1;
+}
